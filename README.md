@@ -1,18 +1,67 @@
-## Explore a Biodiversity Hotspot with Imaging Spectroscopy
+# Biodiversity Hotspot Exploration: Cape Floristic Region
 
-Use your skills to explore life on Earth! New imaging spectrometer data from NASA is dramatically improving our ability to measure and monitor biodiversity from space. Your challenge is to use publicly available imaging spectroscopy data to characterize and map a biodiversity hotspot in South Africa.
+## Project Overview
 
-### Background
+This project aims to leverage imaging spectroscopy data to explore and visualize the biodiversity in the Cape Floristic Region of South Africa. Using EMIT data from NASA, along with additional biodiversity datasets, we present a holistic view of the region's ecology and its dynamics in a Jupyter Notebook format.
 
-Biodiversity hotspots are areas of the world that contain an exceptional concentration of endemic species. These areas are under threat from human activity and climate change. The Cape Floristic Region in South Africa is one of the world's biodiversity hotspots. It is home to more than 9,000 plant species, 69% of which are endemic. The region is also home to a number of endemic bird, mammal, reptile, and amphibian species.
+## Table of Contents
 
-### Challenge
+- [Getting Started](#getting-started)
+- [Data](#data)
+- [Analysis](#analysis)
+- [Visualization](#visualization)
+- [Contributing](#contributing)
+- [Credits](#credits)
+- [License](#license)
 
-Your challenge is to use imaging spectroscopy data from the NASA Airborne Visible/Infrared Imaging Spectrometer (AVIRIS) to characterize and map the biodiversity hotspot in the Cape Floristic Region. You will use the data to identify and map plant species in the region. You will also use the data to characterize the region's plant communities and identify areas of high biodiversity.
+## Getting Started
 
-### Data
+1. **Prerequisites**: Ensure you have the required libraries and tools installed. Detailed in the `Prerequisites` section below.
+2. Clone the repository to your local machine.
+3. Open the Jupyter Notebook in the `notebooks` directory for a detailed walkthrough of the analysis.
 
-The data for this challenge is from the NASA Airborne Visible/Infrared Imaging Spectrometer (AVIRIS). AVIRIS is a spectrometer instrument that measures the spectrum of sunlight reflected off Earth's surface. The instrument measures 224 bands of the electromagnetic spectrum, including visible light and infrared. The data for this challenge was collected over the Cape Floristic Region in South Africa. The data is available on the [NASA AVIRIS website](https://aviris.jpl.nasa.gov/alt_locator/alt_locator_new.php?project_id=CAPE&region=South%20Africa&lat=33.5&lon=-22.5&alt=0.0&submit=Search). The data is available as a series of 224 GeoTIFF files, one for each band of the electromagnetic spectrum. The data is also available as a single GeoTIFF file that contains all 224 bands.
+### Prerequisites
 
-Requirements
-------------
+- Python 3.x
+- Libraries: numpy, pandas, geopandas, folium, matplotlib, seaborn
+- Jupyter Notebook
+
+## Data
+
+### Raw Data
+
+Located in the `data/raw` directory:
+- EMIT Spectroscopy Data: `data/raw/EMIT_data`
+- Additional Biodiversity Data: `data/raw/biodiversity_data`
+
+### Processed Data
+
+After preprocessing, the cleaned and transformed data is saved in the `data/processed` directory.
+
+## Analysis
+
+The analysis is documented step by step in the Jupyter Notebook, covering:
+- Spectral Diversity Analysis
+- Habitat Mapping
+- Species Distribution Mapping
+- Ecosystem Health Monitoring
+
+## Visualization
+
+Within the Jupyter Notebook, you'll find various visualizations including:
+- Interactive Maps
+- Spectral Signature Visuals
+- Storytelling Visuals
+
+## Contributing
+
+If you'd like to contribute or have suggestions for additional analyses, please fork the repository and use a feature branch. Pull requests are warmly welcome.
+
+## Credits
+
+- **Team Members**: Prajit Adhikari, Bishal Adhikari
+- **Data Sources**: NASA (for providing the EMIT data)
+
+## License
+
+This project is open-source, licensed under the [MIT License](LICENSE).
