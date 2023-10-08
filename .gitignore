@@ -154,7 +154,6 @@ dmypy.json
 cython_debug/
 
 # test
-test/
 
 
 
